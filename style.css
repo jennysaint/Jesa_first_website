@@ -1,3 +1,58 @@
 body {
-    background: blue;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0077cc;
+  color: #333;
+}
+
+.home .container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.intro {
+    color: white;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.arrow {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.profile header {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+section {
+  padding: 2rem;
+  background: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
 }
